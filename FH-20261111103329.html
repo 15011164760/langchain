@@ -1,0 +1,955 @@
+<!DOCTYPE HTML><html lang="zh-CN"><head><title>FH-20261111103329.html</title><meta charset="UTF-8"><style>.markdown-body{box-sizing:border-box;min-width:200px;max-width:980px;margin:0 auto;padding:45px;}.markdown-body .octicon{display:inline-block;fill:currentColor;vertical-align:text-bottom}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#1b1f23;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{width:16px;height:16px;content:' ';display:inline-block;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNicgdmVyc2lvbj0nMS4xJyB3aWR0aD0nMTYnIGhlaWdodD0nMTYnIGFyaWEtaGlkZGVuPSd0cnVlJz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGQ9J000IDloMXYxSDRjLTEuNSAwLTMtMS42OS0zLTMuNVMyLjU1IDMgNCAzaDRjMS40NSAwIDMgMS42OSAzIDMuNSAwIDEuNDEtLjkxIDIuNzItMiAzLjI1VjguNTljLjU4LS40NSAxLTEuMjcgMS0yLjA5QzEwIDUuMjIgOC45OCA0IDggNEg0Yy0uOTggMC0yIDEuMjItMiAyLjVTMyA5IDQgOXptOS0zaC0xdjFoMWMxIDAgMiAxLjIyIDIgMi41UzEzLjk4IDEyIDEzIDEySDljLS45OCAwLTItMS4yMi0yLTIuNSAwLS44My40Mi0xLjY0IDEtMi4wOVY2LjI1Yy0xLjA5LjUzLTIgMS44NC0yIDMuMjVDNiAxMS4zMSA3LjU1IDEzIDkgMTNoNGMxLjQ1IDAgMy0xLjY5IDMtMy41UzE0LjUgNiAxMyA2eic+PC9wYXRoPjwvc3ZnPg==)}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.5;color:#24292e;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body details{display:block}.markdown-body summary{display:list-item}.markdown-body a{background-color:initial}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body strong{font-weight:inherit;font-weight:bolder}.markdown-body h1{font-size:2em;margin:.67em 0}.markdown-body img{border-style:none}.markdown-body code,.markdown-body kbd,.markdown-body pre{font-family:monospace,monospace;font-size:1em}.markdown-body hr{box-sizing:initial;height:0;overflow:visible}.markdown-body input{font:inherit;margin:0}.markdown-body input{overflow:visible}.markdown-body [type=checkbox]{box-sizing:border-box;padding:0}.markdown-body *{box-sizing:border-box}.markdown-body input{font-family:inherit;font-size:inherit;line-height:inherit}.markdown-body a{color:#0366d6;text-decoration:none}.markdown-body a:hover{text-decoration:underline}.markdown-body strong{font-weight:600}.markdown-body hr{height:0;margin:15px 0;overflow:hidden;background:0 0;border:0;border-bottom:1px solid #dfe2e5}.markdown-body hr:after,.markdown-body hr:before{display:table;content:""}.markdown-body hr:after{clear:both}.markdown-body table{border-spacing:0;border-collapse:collapse}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body kbd{display:inline-block;padding:3px 5px;font:11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;line-height:10px;color:#444d56;vertical-align:middle;background-color:#fafbfc;border:1px solid #d1d5da;border-radius:3px;box-shadow:inset 0 -1px 0 #d1d5da}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:0;margin-bottom:0}.markdown-body h1{font-size:32px}.markdown-body h1,.markdown-body h2{font-weight:600}.markdown-body h2{font-size:24px}.markdown-body h3{font-size:20px}.markdown-body h3,.markdown-body h4{font-weight:600}.markdown-body h4{font-size:16px}.markdown-body h5{font-size:14px}.markdown-body h5,.markdown-body h6{font-weight:600}.markdown-body h6{font-size:12px}.markdown-body p{margin-top:0;margin-bottom:10px}.markdown-body blockquote{margin:0}.markdown-body ol,.markdown-body ul{padding-left:0;margin-top:0;margin-bottom:0}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:12px}.markdown-body pre{margin-top:0;margin-bottom:0}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{margin:0;-webkit-appearance:none;appearance:none}.markdown-body:checked + .radio-label{position:relative;z-index:1;border-color:#0366d6}.markdown-body .border{border:1px solid #e1e4e8 !important}.markdown-body .border-0{border:0 !important}.markdown-body .border-bottom{border-bottom:1px solid #e1e4e8 !important}.markdown-body .rounded-1{border-radius:3px !important}.markdown-body .bg-white{background-color:#fff !important}.markdown-body .bg-gray-light{background-color:#fafbfc !important}.markdown-body .text-gray-light{color:#6a737d !important}.markdown-body .mb-0{margin-bottom:0 !important}.markdown-body .my-2{margin-top:8px !important;margin-bottom:8px !important}.markdown-body .pl-0{padding-left:0 !important}.markdown-body .py-0{padding-top:0 !important;padding-bottom:0 !important}.markdown-body .pl-1{padding-left:4px !important}.markdown-body .pl-2{padding-left:8px !important}.markdown-body .py-2{padding-top:8px !important;padding-bottom:8px !important}.markdown-body .pl-3,.markdown-body .px-3{padding-left:16px !important}.markdown-body .px-3{padding-right:16px !important}.markdown-body .pl-4{padding-left:24px !important}.markdown-body .pl-5{padding-left:32px !important}.markdown-body .pl-6{padding-left:40px !important}.markdown-body .f6{font-size:12px !important}.markdown-body .lh-condensed{line-height:1.25 !important}.markdown-body .text-bold{font-weight:600 !important}.markdown-body .pl-c{color:#6a737d}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:#005cc5}.markdown-body .pl-e,.markdown-body .pl-en{color:#6f42c1}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:#24292e}.markdown-body .pl-ent{color:#22863a}.markdown-body .pl-k{color:#d73a49}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:#032f62}.markdown-body .pl-smw,.markdown-body .pl-v{color:#e36209}.markdown-body .pl-bu{color:#b31d28}.markdown-body .pl-ii{color:#fafbfc;background-color:#b31d28}.markdown-body .pl-c2{color:#fafbfc;background-color:#d73a49}.markdown-body .pl-c2:before{content:"^M"}.markdown-body .pl-sr .pl-cce{font-weight:700;color:#22863a}.markdown-body .pl-ml{color:#735c0f}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{font-weight:700;color:#005cc5}.markdown-body .pl-mi{font-style:italic;color:#24292e}.markdown-body .pl-mb{font-weight:700;color:#24292e}.markdown-body .pl-md{color:#b31d28;background-color:#ffeef0}.markdown-body .pl-mi1{color:#22863a;background-color:#f0fff4}.markdown-body .pl-mc{color:#e36209;background-color:#ffebda}.markdown-body .pl-mi2{color:#f6f8fa;background-color:#005cc5}.markdown-body .pl-mdr{font-weight:700;color:#6f42c1}.markdown-body .pl-ba{color:#586069}.markdown-body .pl-sg{color:#959da5}.markdown-body .pl-corl{text-decoration:underline;color:#032f62}.markdown-body .mb-0{margin-bottom:0 !important}.markdown-body .my-2{margin-bottom:8px !important}.markdown-body .my-2{margin-top:8px !important}.markdown-body .pl-0{padding-left:0 !important}.markdown-body .py-0{padding-top:0 !important;padding-bottom:0 !important}.markdown-body .pl-1{padding-left:4px !important}.markdown-body .pl-2{padding-left:8px !important}.markdown-body .py-2{padding-top:8px !important;padding-bottom:8px !important}.markdown-body .pl-3{padding-left:16px !important}.markdown-body .pl-4{padding-left:24px !important}.markdown-body .pl-5{padding-left:32px !important}.markdown-body .pl-6{padding-left:40px !important}.markdown-body .pl-7{padding-left:48px !important}.markdown-body .pl-8{padding-left:64px !important}.markdown-body .pl-9{padding-left:80px !important}.markdown-body .pl-10{padding-left:96px !important}.markdown-body .pl-11{padding-left:112px !important}.markdown-body .pl-12{padding-left:128px !important}.markdown-body hr{border-bottom-color:#eee}.markdown-body kbd{display:inline-block;padding:3px 5px;font:11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;line-height:10px;color:#444d56;vertical-align:middle;background-color:#fafbfc;border:1px solid #d1d5da;border-radius:3px;box-shadow:inset 0 -1px 0 #d1d5da}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body >:first-child{margin-top:0 !important}.markdown-body >:last-child{margin-bottom:0 !important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e1e4e8;border:0}.markdown-body blockquote{padding:0 1em;color:#6a737d;border-left:.25em solid #dfe2e5}.markdown-body blockquote >:first-child{margin-top:0}.markdown-body blockquote >:last-child{margin-bottom:0}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eaecef}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#6a737d}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li{word-wrap:break-all}.markdown-body li > p{margin-top:16px}.markdown-body li + li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #dfe2e5}.markdown-body table tr{background-color:#fff;border-top:1px solid #c6cbd1}.markdown-body table tr:nth-child(2n){background-color:#f6f8fa}.markdown-body img{max-width:100%;box-sizing:initial;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body code{padding:.2em .4em;margin:0;font-size:85%;background-color:rgba(27,31,35,.05);border-radius:3px}.markdown-body pre{word-wrap:normal}.markdown-body pre > code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:3px}.markdown-body pre code{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:initial;border:0}.markdown-body .commit-tease-sha{display:inline-block;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:90%;color:#444d56}.markdown-body .full-commit .btn-outline:not(:disabled):hover{color:#005cc5;border-color:#005cc5}.markdown-body .blob-wrapper{overflow-x:auto;overflow-y:hidden}.markdown-body .blob-wrapper-embedded{max-height:240px;overflow-y:auto}.markdown-body .blob-num{width:1%;min-width:50px;padding-right:10px;padding-left:10px;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:12px;line-height:20px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;vertical-align:top;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-body .blob-num:hover{color:rgba(27,31,35,.6)}.markdown-body .blob-num:before{content:attr(data-line-number)}.markdown-body .blob-code{position:relative;padding-right:10px;padding-left:10px;line-height:20px;vertical-align:top}.markdown-body .blob-code-inner{overflow:visible;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:12px;color:#24292e;word-wrap:normal;white-space:pre}.markdown-body .pl-token.active,.markdown-body .pl-token:hover{cursor:pointer;background:#ffea7f}.markdown-body .tab-size[data-tab-size="1"]{-moz-tab-size:1;tab-size:1}.markdown-body .tab-size[data-tab-size="2"]{-moz-tab-size:2;tab-size:2}.markdown-body .tab-size[data-tab-size="3"]{-moz-tab-size:3;tab-size:3}.markdown-body .tab-size[data-tab-size="4"]{-moz-tab-size:4;tab-size:4}.markdown-body .tab-size[data-tab-size="5"]{-moz-tab-size:5;tab-size:5}.markdown-body .tab-size[data-tab-size="6"]{-moz-tab-size:6;tab-size:6}.markdown-body .tab-size[data-tab-size="7"]{-moz-tab-size:7;tab-size:7}.markdown-body .tab-size[data-tab-size="8"]{-moz-tab-size:8;tab-size:8}.markdown-body .tab-size[data-tab-size="9"]{-moz-tab-size:9;tab-size:9}.markdown-body .tab-size[data-tab-size="10"]{-moz-tab-size:10;tab-size:10}.markdown-body .tab-size[data-tab-size="11"]{-moz-tab-size:11;tab-size:11}.markdown-body .tab-size[data-tab-size="12"]{-moz-tab-size:12;tab-size:12}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item + .task-list-item{margin-top:3px}.markdown-body .task-list-item input{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body pre code,.item-content pre code,.markdown-body pre .subst,.item-content pre .subst,.markdown-body pre .tag .title,.item-content pre .tag .title,.markdown-body pre .lisp .title,.item-content pre .lisp .title,.markdown-body pre .clojure .built_in,.item-content pre .clojure .built_in,.markdown-body pre .nginx .title,.item-content pre .nginx .title{color:black}.markdown-body pre .string,.item-content pre .string,.markdown-body pre .title,.item-content pre .title,.markdown-body pre .constant,.item-content pre .constant,.markdown-body pre .parent,.item-content pre .parent,.markdown-body pre .tag .value,.item-content pre .tag .value,.markdown-body pre .rules .value,.item-content pre .rules .value,.markdown-body pre .rules .value .number,.item-content pre .rules .value .number,.markdown-body pre .preprocessor,.item-content pre .preprocessor,.markdown-body pre .ruby .symbol,.item-content pre .ruby .symbol,.markdown-body pre .ruby .symbol .string,.item-content pre .ruby .symbol .string,.markdown-body pre .aggregate,.item-content pre .aggregate,.markdown-body pre .template_tag,.item-content pre .template_tag,.markdown-body pre .django .variable,.item-content pre .django .variable,.markdown-body pre .smalltalk .class,.item-content pre .smalltalk .class,.markdown-body pre .addition,.item-content pre .addition,.markdown-body pre .flow,.item-content pre .flow,.markdown-body pre .stream,.item-content pre .stream,.markdown-body pre .bash .variable,.item-content pre .bash .variable,.markdown-body pre .apache .tag,.item-content pre .apache .tag,.markdown-body pre .apache .cbracket,.item-content pre .apache .cbracket,.markdown-body pre .tex .command,.item-content pre .tex .command,.markdown-body pre .tex .special,.item-content pre .tex .special,.markdown-body pre .erlang_repl .function_or_atom,.item-content pre .erlang_repl .function_or_atom,.markdown-body pre .markdown .header,.item-content pre .markdown .header{color:#df5000}.markdown-body pre .comment,.item-content pre .comment,.markdown-body pre .annotation,.item-content pre .annotation,.markdown-body pre .template_comment,.item-content pre .template_comment,.markdown-body pre .diff .header,.item-content pre .diff .header,.markdown-body pre .chunk,.item-content pre .chunk,.markdown-body pre .markdown .blockquote,.item-content pre .markdown .blockquote{color:#888}.markdown-body pre .number,.item-content pre .number,.markdown-body pre .date,.item-content pre .date,.markdown-body pre .regexp,.item-content pre .regexp,.markdown-body pre .literal,.item-content pre .literal,.markdown-body pre .smalltalk .symbol,.item-content pre .smalltalk .symbol,.markdown-body pre .smalltalk .char,.item-content pre .smalltalk .char,.markdown-body pre .go .constant,.item-content pre .go .constant,.markdown-body pre .change,.item-content pre .change,.markdown-body pre .markdown .bullet,.item-content pre .markdown .bullet,.markdown-body pre .markdown .link_url,.item-content pre .markdown .link_url{color:#080}.markdown-body pre .label,.item-content pre .label,.markdown-body pre .javadoc,.item-content pre .javadoc,.markdown-body pre .ruby .string,.item-content pre .ruby .string,.markdown-body pre .decorator,.item-content pre .decorator,.markdown-body pre .filter .argument,.item-content pre .filter .argument,.markdown-body pre .localvars,.item-content pre .localvars,.markdown-body pre .array,.item-content pre .array,.markdown-body pre .attr_selector,.item-content pre .attr_selector,.markdown-body pre .important,.item-content pre .important,.markdown-body pre .pseudo,.item-content pre .pseudo,.markdown-body pre .pi,.item-content pre .pi,.markdown-body pre .doctype,.item-content pre .doctype,.markdown-body pre .deletion,.item-content pre .deletion,.markdown-body pre .envvar,.item-content pre .envvar,.markdown-body pre .shebang,.item-content pre .shebang,.markdown-body pre .apache .sqbracket,.item-content pre .apache .sqbracket,.markdown-body pre .nginx .built_in,.item-content pre .nginx .built_in,.markdown-body pre .tex .formula,.item-content pre .tex .formula,.markdown-body pre .erlang_repl .reserved,.item-content pre .erlang_repl .reserved,.markdown-body pre .prompt,.item-content pre .prompt,.markdown-body pre .markdown .link_label,.item-content pre .markdown .link_label,.markdown-body pre .vhdl .attribute,.item-content pre .vhdl .attribute,.markdown-body pre .clojure .attribute,.item-content pre .clojure .attribute,.markdown-body pre .coffeescript .property,.item-content pre .coffeescript .property{color:#88f}.markdown-body pre .keyword,.item-content pre .keyword{color:#48b;font-weight:bold}.markdown-body pre .title,.item-content pre .title{color:#454545}.markdown-body pre .markdown .emphasis,.item-content pre .markdown .emphasis,.markdown-body pre .comment,.item-content pre .comment{font-style:italic}.markdown-body pre .nginx .built_in,.item-content pre .nginx .built_in{font-weight:normal}.markdown-body pre .coffeescript .javascript,.item-content pre .coffeescript .javascript,.markdown-body pre .javascript .xml,.item-content pre .javascript .xml,.markdown-body pre .tex .formula,.item-content pre .tex .formula,.markdown-body pre .xml .javascript,.item-content pre .xml .javascript,.markdown-body pre .xml .vbscript,.item-content pre .xml .vbscript,.markdown-body pre .xml .css,.item-content pre .xml .css,.markdown-body pre .xml .cdata,.item-content pre .xml .cdata{opacity:0.5}.markdown-body ul,.item-content ul{margin:0.5em 0;padding:0 0 0 2em}.markdown-body ul li,.item-content ul li{list-style:disc}.hljs{display:block;overflow-x:auto;padding:0.5em;color:#333;background:#f8f8f8;}.hljs-comment,.hljs-quote{color:#998;font-style:italic;}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:bold;}.hljs-number,.hljs-literal,.hljs-variable,.hljs-template-variable,.hljs-tag .hljs-attr{color:#008080;}.hljs-string,.hljs-doctag{color:#d14;}.hljs-title,.hljs-section,.hljs-selector-id{color:#900;font-weight:bold;}.hljs-subst{font-weight:normal;}.hljs-type,.hljs-class .hljs-title{color:#458;font-weight:bold;}.hljs-tag,.hljs-name,.hljs-attribute{color:#000080;font-weight:normal;}.hljs-regexp,.hljs-link{color:#009926;}.hljs-symbol,.hljs-bullet{color:#990073;}.hljs-built_in,.hljs-builtin-name{color:#0086b3;}.hljs-meta{color:#999;font-weight:bold;}.hljs-deletion{background:#fdd;}.hljs-addition{background:#dfd;}.hljs-emphasis{font-style:italic;}.hljs-strong{font-weight:bold;}</style></head><body class="markdown-body"><h1>Agent 应用开发（初学者带注释版）</h1>
+<blockquote>
+<p>说明：本文在原笔记基础上，给<strong>每一行代码</strong>都加了中文注释，帮助初学者理解每个语句在做什么。代码逻辑保持原样，仅补充注释。</p>
+</blockquote>
+<p>Agent 应用开发 = 前端 + 后端 + Agent</p>
+<ul>
+<li>后端用 Java</li>
+<li>Agent 用 Python</li>
+</ul>
+<hr>
+<h2>LangChain</h2>
+<p><strong>环境要求</strong></p>
+<ul>
+<li>Python 3.14+</li>
+<li>PyCharm 2025+</li>
+</ul>
+<hr>
+<h2>快速上手</h2>
+<h3>1、新建项目，配置虚拟环境</h3>
+<pre><code class="lang-bash hljs">mkdir langchain</code></pre>
+<blockquote>
+<p><code>mkdir langchain</code>：在当前目录创建一个名为 <code>langchain</code> 的文件夹（项目目录）。</p>
+</blockquote>
+<h3>2、创建虚拟环境</h3>
+<pre><code class="lang-bash hljs">python -m venv .venv</code></pre>
+<blockquote>
+<p><code>python -m venv .venv</code>：用 Python 自带的 <code>venv</code> 模块，在 <code>.venv</code> 目录下创建一个独立的虚拟环境（隔离项目依赖，避免污染全局 Python）。</p>
+</blockquote>
+<h3>3、激活虚拟环境</h3>
+<pre><code class="lang-bash hljs">.venv\Scripts\activate</code></pre>
+<blockquote>
+<p><code>.venv\Scripts\activate</code>：Windows 下激活虚拟环境。激活后命令行前面会出现 <code>(.venv)</code>，表示当前用的就是虚拟环境的 Python。
+（macOS/Linux 用 <code>source .venv/bin/activate</code>）</p>
+</blockquote>
+<h3>4、安装依赖</h3>
+<pre><code class="lang-bash hljs">pip install langchain
+pip install langchain-openai
+pip install python-dotenv</code></pre>
+<blockquote>
+<ul>
+<li><code>pip install langchain</code>：安装 LangChain 核心库（Agent、链、消息等）。</li>
+<li><code>pip install langchain-openai</code>：安装 OpenAI 兼容接口的适配器（阿里通义千问也走 OpenAI 兼容协议，所以用它）。</li>
+<li><code>pip install python-dotenv</code>：安装读取 <code>.env</code> 配置文件的库（用来安全存放 API Key）。</li>
+</ul>
+</blockquote>
+<h3>5、创建配置文件，存放 API-KEY 和 URL</h3>
+<pre><code class="lang-bash hljs">DASHSCOPE_API_KEY=你的apikey
+DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1</code></pre>
+<blockquote>
+<p>这两行写在项目根目录的 <code>.env</code> 文件里：</p>
+<ul>
+<li><code>DASHSCOPE_API_KEY</code>：阿里云百炼（通义千问）的 API 密钥。</li>
+<li><code>DASHSCOPE_BASE_URL</code>：通义千问的 OpenAI 兼容接口地址。</li>
+</ul>
+</blockquote>
+<h3>6、写代码连接大模型</h3>
+<pre><code class="lang-python hljs"><span class="hljs-comment"># 导入依赖</span>
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 从 dotenv 库导入 load_dotenv，用于读取 .env 文件</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 导入 init_chat_model，用于初始化聊天模型</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 导入 os，用于读取环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载 .env 文件，把里面的键值对读进环境变量</span>
+
+<span class="hljs-comment"># 创建 model</span>
+model = init_chat_model(                             <span class="hljs-comment"># 初始化一个聊天模型对象</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 指定使用的模型名称：qwen-long</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># 指定模型提供方为 openai（走 OpenAI 兼容协议）</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># 从环境变量读取 API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 从环境变量读取接口地址</span>
+)
+
+response = model.invoke(<span class="hljs-string">"你是谁？"</span>)                   <span class="hljs-comment"># invoke 表示"同步调用一次"，传入字符串问题，返回模型回复对象</span>
+print(response.content)                              <span class="hljs-comment"># 打印回复对象里的 content（文本内容）</span></code></pre>
+<h3>7、设置角色（system / user 消息）</h3>
+<pre><code class="lang-python hljs">response = model.invoke([                            <span class="hljs-comment"># invoke 也可以传入"消息列表"</span>
+    {<span class="hljs-string">"role"</span>: <span class="hljs-string">"system"</span>, <span class="hljs-string">"content"</span>: <span class="hljs-string">"请你以周杰伦的口吻来回答问题"</span>},  <span class="hljs-comment"># system：设定模型的身份/语气</span>
+    {<span class="hljs-string">"role"</span>: <span class="hljs-string">"user"</span>,   <span class="hljs-string">"content"</span>: <span class="hljs-string">"你是谁？"</span>}         <span class="hljs-comment"># user：用户真正的提问</span>
+])
+print(response.content)                              <span class="hljs-comment"># 打印回答文本</span></code></pre>
+<h3>8、流式输出（一个字一个字往外蹦）</h3>
+<pre><code class="lang-python hljs">response = model.stream([                            <span class="hljs-comment"># stream 表示"流式调用"，逐块返回结果</span>
+    {<span class="hljs-string">"role"</span>: <span class="hljs-string">"system"</span>, <span class="hljs-string">"content"</span>: <span class="hljs-string">"请你以周杰伦的口吻来回答问题"</span>},  <span class="hljs-comment"># 系统角色设定</span>
+    {<span class="hljs-string">"role"</span>: <span class="hljs-string">"user"</span>,   <span class="hljs-string">"content"</span>: <span class="hljs-string">"你是谁？"</span>}         <span class="hljs-comment"># 用户提问</span>
+])
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response:                             <span class="hljs-comment"># 遍历流式返回的每一个消息块</span>
+    print(message.content, end=<span class="hljs-string">""</span>)                   <span class="hljs-comment"># 打印当前块的内容，end="" 表示不换行（像打字机效果）</span></code></pre>
+<hr>
+<h2>智能体中调用</h2>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 导入 load_dotenv 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 导入模型初始化函数</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 导入 create_agent，用于创建智能体</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 导入 os 读取环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载 .env 配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化聊天模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># 走 OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(model)                          <span class="hljs-comment"># 创建一个智能体，只传模型（此时还没有工具）</span>
+
+response = agent.invoke({                            <span class="hljs-comment"># 调用智能体，传入一个字典</span>
+    <span class="hljs-string">"messages"</span>: [                                    <span class="hljs-comment"># messages 键存放消息列表</span>
+        {<span class="hljs-string">"role"</span>: <span class="hljs-string">"system"</span>, <span class="hljs-string">"content"</span>: <span class="hljs-string">"请你以周杰伦的口吻来回答问题"</span>},  <span class="hljs-comment"># 系统角色</span>
+        {<span class="hljs-string">"role"</span>: <span class="hljs-string">"user"</span>,   <span class="hljs-string">"content"</span>: <span class="hljs-string">"你是谁？"</span>}     <span class="hljs-comment"># 用户问题</span>
+    ]
+})
+
+print(response)                                      <span class="hljs-comment"># 打印智能体返回的完整结果（包含所有消息）</span></code></pre>
+<p><strong>流式输出</strong></p>
+<pre><code class="lang-python hljs">response = agent.stream(                             <span class="hljs-comment"># 流式调用智能体</span>
+    {
+        <span class="hljs-string">"messages"</span>: [                                <span class="hljs-comment"># 消息列表</span>
+            {<span class="hljs-string">"role"</span>: <span class="hljs-string">"system"</span>, <span class="hljs-string">"content"</span>: <span class="hljs-string">"请你以周星驰的口吻来回答问题"</span>},  <span class="hljs-comment"># 系统角色设定</span>
+            {<span class="hljs-string">"role"</span>: <span class="hljs-string">"user"</span>,   <span class="hljs-string">"content"</span>: <span class="hljs-string">"你是谁？"</span>} <span class="hljs-comment"># 用户问题</span>
+        ]
+    },
+    stream_mode=<span class="hljs-string">"messages"</span>                           <span class="hljs-comment"># 流式模式设为 "messages"，即按消息块输出</span>
+)
+
+<span class="hljs-keyword">for</span> token, metadata <span class="hljs-keyword">in</span> response:                     <span class="hljs-comment"># 每次迭代得到 (消息块 token, 元数据 metadata)</span>
+    <span class="hljs-keyword">if</span> token.content:                                <span class="hljs-comment"># 如果该消息块有文本内容</span>
+        print(token.content, end=<span class="hljs-string">""</span>)                 <span class="hljs-comment"># 打印出来，不换行</span></code></pre>
+<hr>
+<h2>多模态消息</h2>
+<p><strong>三种消息类型说明：</strong></p>
+<ul>
+<li><code>SystemMessage</code>：系统角色消息（设定 AI 身份）</li>
+<li><code>HumanMessage</code>：用户提问消息</li>
+<li><code>AIMessage</code>：大模型的回答消息</li>
+</ul>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 这里换成多模态模型 qwen3.5-plus</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(model)                          <span class="hljs-comment"># 创建智能体</span>
+
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 导入 HumanMessage（用户消息类）</span>
+
+message = HumanMessage([                             <span class="hljs-comment"># 构造一条用户消息，内容是"列表"形式（多模态）</span>
+    {<span class="hljs-string">"type"</span>: <span class="hljs-string">"text"</span>,  <span class="hljs-string">"text"</span>: <span class="hljs-string">"描述一下这张图片中的内容"</span>},  <span class="hljs-comment"># 文本部分</span>
+    {<span class="hljs-string">"type"</span>: <span class="hljs-string">"image"</span>, <span class="hljs-string">"url"</span>: <span class="hljs-string">"https://inews.gtimg.com/news_bt/Ogw_-rddzOwDnZQN8q5jjefTEK7ZlIEPGAKVCFdISRossAA/641"</span>}  <span class="hljs-comment"># 图片部分（URL 形式）</span>
+])
+
+stream = agent.stream(                               <span class="hljs-comment"># 流式调用智能体</span>
+    {<span class="hljs-string">"messages"</span>: [message]},                         <span class="hljs-comment"># 把上面那条多模态消息放进 messages</span>
+    stream_mode=<span class="hljs-string">"messages"</span>,                          <span class="hljs-comment"># 按消息块流式输出</span>
+)
+
+<span class="hljs-keyword">for</span> token, metadata <span class="hljs-keyword">in</span> stream:                       <span class="hljs-comment"># 遍历每个流式块</span>
+    <span class="hljs-keyword">if</span> token.content:                                <span class="hljs-comment"># 若有文本内容</span>
+        print(token.content, end=<span class="hljs-string">""</span>)                 <span class="hljs-comment"># 打印，不换行</span></code></pre>
+<p><strong>设置角色（SystemMessage + HumanMessage 多模态）</strong></p>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化多模态模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(model)                          <span class="hljs-comment"># 创建智能体</span>
+
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage, SystemMessage  <span class="hljs-comment"># 导入用户消息、系统消息两个类</span>
+
+human_message = HumanMessage([                       <span class="hljs-comment"># 构造用户多模态消息</span>
+    {<span class="hljs-string">"type"</span>: <span class="hljs-string">"text"</span>,  <span class="hljs-string">"text"</span>: <span class="hljs-string">"描述一下这张图片中的内容"</span>},  <span class="hljs-comment"># 文本部分</span>
+    {<span class="hljs-string">"type"</span>: <span class="hljs-string">"image"</span>, <span class="hljs-string">"url"</span>: <span class="hljs-string">"https://inews.gtimg.com/news_bt/Ogw_-rddzOwDnZQN8q5jjefTEK7ZlIEPGAKVCFdISRossAA/641"</span>}  <span class="hljs-comment"># 图片 URL</span>
+])
+
+system_message = SystemMessage(<span class="hljs-string">"请以周星驰的口吻来回答问题"</span>)  <span class="hljs-comment"># 构造系统消息，设定角色语气</span>
+
+stream = agent.stream(                               <span class="hljs-comment"># 流式调用智能体</span>
+    {<span class="hljs-string">"messages"</span>: [human_message, system_message]},   <span class="hljs-comment"># 消息列表里放用户消息 + 系统消息</span>
+    stream_mode=<span class="hljs-string">"messages"</span>,                          <span class="hljs-comment"># 流式输出模式</span>
+)
+
+<span class="hljs-keyword">for</span> token, metadata <span class="hljs-keyword">in</span> stream:                       <span class="hljs-comment"># 遍历流式块</span>
+    <span class="hljs-keyword">if</span> token.content:                                <span class="hljs-comment"># 有文本才打印</span>
+        print(token.content, end=<span class="hljs-string">""</span>)                 <span class="hljs-comment"># 逐字打印</span></code></pre>
+<hr>
+<h2>系统提示词</h2>
+<blockquote>
+<p>用 <code>create_agent</code> 的 <code>system_prompt</code> 参数直接设定系统提示词，比在 messages 里塞 system 消息更简洁。</p>
+</blockquote>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 传入模型</span>
+    system_prompt=<span class="hljs-string">"请以周星驰的口吻来回答问题"</span>         <span class="hljs-comment"># 直接传系统提示词，设定角色</span>
+)
+
+response = agent.stream(                             <span class="hljs-comment"># 流式调用智能体</span>
+    {
+        <span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"你是谁？"</span>)]         <span class="hljs-comment"># 只传一条用户消息即可</span>
+    },
+    stream_mode=<span class="hljs-string">"messages"</span>                           <span class="hljs-comment"># 流式输出</span>
+)
+
+<span class="hljs-keyword">for</span> token, metadata <span class="hljs-keyword">in</span> response:                     <span class="hljs-comment"># 遍历流式块</span>
+    <span class="hljs-keyword">if</span> token.content:                                <span class="hljs-comment"># 有文本</span>
+        print(token.content, end=<span class="hljs-string">""</span>)                 <span class="hljs-comment"># 逐字打印</span></code></pre>
+<p><strong>更详细的系统提示词</strong></p>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+system_prompt = <span class="hljs-string">"""
+你是一个专业的旅行规划助手。你的任务是根据用户提供的旅行偏好，为其推荐最合适的旅行方案。
+"""</span>                                                  <span class="hljs-comment"># 用三引号写多行系统提示词，交代角色和任务</span>
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 传入模型</span>
+    system_prompt=system_prompt                      <span class="hljs-comment"># 传入上面定义的系统提示词</span>
+)
+
+content = <span class="hljs-string">"""
+我想规划一次旅行，我从深圳出发，我喜欢的目的地类型是海滨城市
+"""</span>                                                  <span class="hljs-comment"># 用户的提问内容</span>
+
+response = agent.stream(                             <span class="hljs-comment"># 流式调用智能体</span>
+    {
+        <span class="hljs-string">"messages"</span>: [HumanMessage(content)]          <span class="hljs-comment"># 把用户内容包装成 HumanMessage</span>
+    },
+    stream_mode=<span class="hljs-string">"messages"</span>                           <span class="hljs-comment"># 流式输出</span>
+)
+
+<span class="hljs-keyword">for</span> token, metadata <span class="hljs-keyword">in</span> response:                     <span class="hljs-comment"># 遍历流式块</span>
+    <span class="hljs-keyword">if</span> token.content:                                <span class="hljs-comment"># 有文本</span>
+        print(token.content, end=<span class="hljs-string">""</span>)                 <span class="hljs-comment"># 逐字打印</span></code></pre>
+<hr>
+<h2>结构化输出</h2>
+<blockquote>
+<p>让模型按我们定义的"数据结构"（Pydantic 模型）返回结果，方便程序后续处理。</p>
+</blockquote>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+<span class="hljs-keyword">from</span> pydantic <span class="hljs-keyword">import</span> BaseModel                       <span class="hljs-comment"># 导入 BaseModel，用于定义数据结构</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+system_prompt = <span class="hljs-string">"""
+你是一个专业的旅行规划助手。你的任务是根据用户提供的旅行偏好，为其推荐最合适的旅行方案。
+"""</span>                                                  <span class="hljs-comment"># 系统提示词</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TravelData</span><span class="hljs-params">(BaseModel)</span>:</span>                         <span class="hljs-comment"># 定义一个数据结构类，继承 BaseModel</span>
+    city: str                                        <span class="hljs-comment"># 目的地（字符串）</span>
+    reason: str                                      <span class="hljs-comment"># 推荐理由</span>
+    cost: str                                        <span class="hljs-comment"># 费用区间</span>
+    hotel: str                                       <span class="hljs-comment"># 住宿</span>
+    transport: str                                   <span class="hljs-comment"># 交通</span>
+    tips: str                                        <span class="hljs-comment"># 特别提示</span>
+    season: str                                      <span class="hljs-comment"># 最佳旅行季节</span>
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 传入模型</span>
+    system_prompt=system_prompt,                     <span class="hljs-comment"># 系统提示词</span>
+    response_format=TravelData                       <span class="hljs-comment"># 指定结构化输出格式为 TravelData</span>
+)
+
+content = <span class="hljs-string">"""
+我想规划一次旅行，我从深圳出发，我喜欢的目的地类型是海滨城市
+"""</span>                                                  <span class="hljs-comment"># 用户提问</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 同步调用一次智能体</span>
+    {
+        <span class="hljs-string">"messages"</span>: [HumanMessage(content)]          <span class="hljs-comment"># 用户消息</span>
+    }
+)
+
+city = response[<span class="hljs-string">'structured_response'</span>]               <span class="hljs-comment"># 从返回结果里取出结构化数据</span>
+print(city)                                          <span class="hljs-comment"># 打印结构化对象（字段符合 TravelData）</span></code></pre>
+<hr>
+<h2>Function Calling（工具调用）</h2>
+<ol>
+<li>注册 Tavily，获取 API_KEY</li>
+<li>安装 Tavily 依赖</li>
+</ol>
+<pre><code class="lang-bash hljs">pip install langchain-tavily</code></pre>
+<blockquote>
+<p>安装 Tavily 搜索工具库（让 Agent 能联网搜索）。</p>
+</blockquote>
+<ol>
+<li>通过 Tavily 查询网页信息，提供给 Agent，再由 Agent 给出答案</li>
+</ol>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+<span class="hljs-keyword">from</span> langchain_tavily <span class="hljs-keyword">import</span> TavilySearch            <span class="hljs-comment"># 导入 Tavily 搜索工具</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+search_tool = TavilySearch()                         <span class="hljs-comment"># 创建 Tavily 搜索工具实例（会自动读 TAVILY_API_KEY）</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 传入模型</span>
+    tools=[search_tool],                             <span class="hljs-comment"># 传入工具列表（这里只有搜索工具）</span>
+    system_prompt=<span class="hljs-string">"你是一个智能助手，使用工具来回答用户问题"</span>  <span class="hljs-comment"># 系统提示词</span>
+)
+
+response = agent.invoke(                             <span class="hljs-comment"># 同步调用智能体</span>
+    {<span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"今天深圳天气怎么样？"</span>)]}  <span class="hljs-comment"># 用户问题（会触发搜索工具）</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">"messages"</span>]:                 <span class="hljs-comment"># 遍历返回的所有消息（含 AI 调用工具的过程）</span>
+    message.pretty_print()                           <span class="hljs-comment"># 美化打印每条消息</span></code></pre>
+<p><strong>结构化输出（工具 + 结构化答案）</strong></p>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> pydantic <span class="hljs-keyword">import</span> BaseModel, Field                <span class="hljs-comment"># 导入 BaseModel 和 Field（Field 可加描述）</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Reference</span><span class="hljs-params">(BaseModel)</span>:</span>                          <span class="hljs-comment"># 定义"引用网页"数据结构</span>
+    title: str = Field(description=<span class="hljs-string">"网页标题"</span>)        <span class="hljs-comment"># 网页标题</span>
+    url: str   = Field(description=<span class="hljs-string">"网页网址"</span>)        <span class="hljs-comment"># 网页网址</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AnswerInfo</span><span class="hljs-params">(BaseModel)</span>:</span>                         <span class="hljs-comment"># 定义"最终答案"数据结构</span>
+    answer: str = Field(description=<span class="hljs-string">"最终的答案"</span>)      <span class="hljs-comment"># 答案文本</span>
+    reference: list[Reference] = Field(description=<span class="hljs-string">"回答问题的网页信息"</span>)  <span class="hljs-comment"># 引用的网页列表</span>
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools=[search_tool],                             <span class="hljs-comment"># 工具</span>
+    system_prompt=<span class="hljs-string">"你是一个智能助手，使用工具来回答用户问题"</span>,  <span class="hljs-comment"># 系统提示词</span>
+    response_format=AnswerInfo                       <span class="hljs-comment"># 指定结构化输出格式</span>
+)
+
+response = agent.invoke(                             <span class="hljs-comment"># 同步调用</span>
+    {<span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"梅西是谁？"</span>)]}          <span class="hljs-comment"># 用户问题</span>
+)
+
+print(response[<span class="hljs-string">"structured_response"</span>])               <span class="hljs-comment"># 打印结构化答案（answer + reference 列表）</span></code></pre>
+<hr>
+<h2>记忆系统</h2>
+<blockquote>
+<p>让 Agent 拥有记忆功能，能够记住历史对话。用 <code>checkpointer</code>（检查点）+ <code>thread_id</code>（会话线程 ID）实现。</p>
+</blockquote>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langgraph.checkpoint.memory <span class="hljs-keyword">import</span> InMemorySaver <span class="hljs-comment"># 内存保存器（把对话状态存在内存里）</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    checkpointer=InMemorySaver()                     <span class="hljs-comment"># 传入内存保存器，使智能体有记忆</span>
+)
+
+config = {
+    <span class="hljs-string">"configurable"</span>: {<span class="hljs-string">"thread_id"</span>: <span class="hljs-string">"thread_1"</span>}        <span class="hljs-comment"># 指定会话 ID；同一 ID 共享历史记忆</span>
+}
+
+response = agent.invoke(                             <span class="hljs-comment"># 第一次调用</span>
+    {
+        <span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"你好，我叫张三，我喜欢打游戏"</span>)]  <span class="hljs-comment"># 告诉智能体信息</span>
+    },
+    config                                           <span class="hljs-comment"># 传入会话配置</span>
+)
+
+print(response)                                      <span class="hljs-comment"># 打印第一次结果（会记住"张三""打游戏"）</span></code></pre>
+<pre><code class="lang-python hljs">response = agent.invoke(                             <span class="hljs-comment"># 第二次调用（同一个 thread_id，能回忆上文）</span>
+    {
+        <span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"我叫什么？我喜欢干什么？"</span>)]  <span class="hljs-comment"># 询问之前说过的信息</span>
+    },
+    config                                           <span class="hljs-comment"># 同一会话配置</span>
+)
+
+print(response)                                      <span class="hljs-comment"># 智能体能答出"张三""打游戏"</span></code></pre>
+<hr>
+<h2>RAG（检索增强生成）</h2>
+<p><strong>向量检索原理</strong></p>
+<ol>
+<li>把文本转换为向量数据（embedding）</li>
+<li>通过计算向量相似度，找到匹配的文档片段</li>
+</ol>
+<p><strong>代码实现</strong></p>
+<p>1、安装依赖</p>
+<pre><code class="lang-bash hljs">pip install langchain langchain-community langchain-text-splitters faiss-cpu dashscope python-dotenv</code></pre>
+<blockquote>
+<ul>
+<li><code>langchain</code> / <code>langchain-community</code>：LangChain 核心与社区扩展</li>
+<li><code>langchain-text-splitters</code>：文本切分工具</li>
+<li><code>faiss-cpu</code>：Facebook 的向量检索库（CPU 版）</li>
+<li><code>dashscope</code>：阿里云百炼 SDK（用于 Embedding）</li>
+<li><code>python-dotenv</code>：读取 <code>.env</code></li>
+</ul>
+</blockquote>
+<p>2、创建知识库文件 <code>knowledge.md</code></p>
+<pre><code class="lang-markdown hljs">2015年欧冠半决赛，梅西在<span class="hljs-strong">**博阿滕**</span>面前那个著名的"静止变向"，整个过程中足球只触地<span class="hljs-strong">**三次**</span>。没有踩单车，没有钟摆过人，只有一个<span class="hljs-strong">**2米**</span>的横向移动和<span class="hljs-strong">**0.3秒**</span>的爆发加速。这个看似简单的动作，背后是<span class="hljs-strong">**对重心控制的极致理解**</span>——而这正是梅西足球哲学的终极体现。</code></pre>
+<blockquote>
+<p>这就是我们要让模型"查资料"的知识库文件。</p>
+</blockquote>
+<p>3、代码实现</p>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 操作系统接口</span>
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">from</span> langchain_community.document_loaders <span class="hljs-keyword">import</span> TextLoader   <span class="hljs-comment"># 文本加载器（读 md 文件）</span>
+<span class="hljs-keyword">from</span> langchain_text_splitters <span class="hljs-keyword">import</span> RecursiveCharacterTextSplitter  <span class="hljs-comment"># 递归字符文本切分器</span>
+<span class="hljs-keyword">from</span> langchain_community.chat_models.tongyi <span class="hljs-keyword">import</span> ChatTongyi        <span class="hljs-comment"># 通义千问聊天模型（社区版）</span>
+<span class="hljs-keyword">from</span> langchain_community.embeddings <span class="hljs-keyword">import</span> DashScopeEmbeddings       <span class="hljs-comment"># DashScope 向量化模型</span>
+<span class="hljs-keyword">from</span> langchain_community.vectorstores <span class="hljs-keyword">import</span> FAISS                   <span class="hljs-comment"># FAISS 向量数据库</span>
+<span class="hljs-keyword">from</span> langchain_core.prompts <span class="hljs-keyword">import</span> ChatPromptTemplate                <span class="hljs-comment"># 聊天提示词模板</span>
+<span class="hljs-keyword">from</span> langchain_core.runnables <span class="hljs-keyword">import</span> RunnablePassthrough             <span class="hljs-comment"># 透传组件（原样传递输入）</span>
+<span class="hljs-keyword">from</span> langchain_core.output_parsers <span class="hljs-keyword">import</span> StrOutputParser            <span class="hljs-comment"># 把模型输出解析成字符串</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+DASHSCOPE_API_KEY = os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>)   <span class="hljs-comment"># 读取 API Key 到变量</span>
+
+loader = TextLoader(<span class="hljs-string">"./knowledge.md"</span>, encoding=<span class="hljs-string">"utf-8"</span>)  <span class="hljs-comment"># 创建文本加载器，指定 utf-8 编码</span>
+docs = loader.load()                                 <span class="hljs-comment"># 加载文档，返回 Document 对象列表</span>
+
+print(docs)                                          <span class="hljs-comment"># 打印加载的文档</span>
+
+text_splitter = RecursiveCharacterTextSplitter(      <span class="hljs-comment"># 创建文本切分器</span>
+    chunk_size=<span class="hljs-number">800</span>,                                  <span class="hljs-comment"># 每个文本块最多 800 字符</span>
+    chunk_overlap=<span class="hljs-number">100</span>                                <span class="hljs-comment"># 相邻块重叠 100 字符（避免切断语义）</span>
+)
+
+splits = text_splitter.split_documents(docs)         <span class="hljs-comment"># 把文档切分成多个小块</span>
+
+print(splits)                                        <span class="hljs-comment"># 打印切分后的块</span>
+
+embeddings = DashScopeEmbeddings(                    <span class="hljs-comment"># 创建 Embedding 模型</span>
+    model=<span class="hljs-string">"text-embedding-v4"</span>,                       <span class="hljs-comment"># 向量模型名</span>
+    dashscope_api_key=DASHSCOPE_API_KEY              <span class="hljs-comment"># API Key</span>
+)
+
+vectorstore = FAISS.from_documents(splits, embeddings)  <span class="hljs-comment"># 把切分块向量化后存入 FAISS 向量库</span>
+retriever = vectorstore.as_retriever(search_kwargs={<span class="hljs-string">"k"</span>: <span class="hljs-number">3</span>})  <span class="hljs-comment"># 创建检索器，每次返回最相似的 3 个块</span>
+
+rag_prompt = ChatPromptTemplate.from_template(       <span class="hljs-comment"># 定义 RAG 提示词模板</span>
+    <span class="hljs-string">"""
+    你是知识库问答助手，**仅能使用下面检索到的上下文回答问题**。
+
+    上下文： {context}
+    用户问题：{question}
+    """</span>
+)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">format_docs</span><span class="hljs-params">(docs)</span>:</span>                               <span class="hljs-comment"># 定义函数：把检索到的多个文档块拼成一个字符串</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"\n\n"</span>.join([d.page_content <span class="hljs-keyword">for</span> d <span class="hljs-keyword">in</span> docs])  <span class="hljs-comment"># 取出每块的 page_content，用两个换行连接</span>
+
+model = ChatTongyi(                                  <span class="hljs-comment"># 初始化通义千问聊天模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    temperature=<span class="hljs-number">0</span>,                                   <span class="hljs-comment"># 温度 0，输出更稳定</span>
+    dashscope_api_key=DASHSCOPE_API_KEY              <span class="hljs-comment"># API Key</span>
+)
+
+rag_chain = (                                        <span class="hljs-comment"># 用管道符 | 组装 RAG 链</span>
+    {<span class="hljs-string">"context"</span>: retriever | format_docs, <span class="hljs-string">"question"</span>: RunnablePassthrough()}  <span class="hljs-comment"># context：检索并格式化；question：原样透传用户问题</span>
+    | rag_prompt                                     <span class="hljs-comment"># 把 context 和 question 填入提示词模板</span>
+    | model                                          <span class="hljs-comment"># 交给模型生成回答</span>
+    | StrOutputParser()                              <span class="hljs-comment"># 把模型输出解析成纯字符串</span>
+)
+
+response = rag_chain.invoke(<span class="hljs-string">"梅西是谁？"</span>)              <span class="hljs-comment"># 执行整条 RAG 链，传入用户问题</span>
+print(response)                                      <span class="hljs-comment"># 打印回答</span></code></pre>
+<hr>
+<h2>Context 上下文</h2>
+<blockquote>
+<p>把"当前用户信息"等上下文安全地传给工具使用（而不是写死在提示词里）。</p>
+</blockquote>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+USER_DATA = {
+    <span class="hljs-string">"user_a"</span>: {                                      <span class="hljs-comment"># 用户组 A</span>
+        <span class="hljs-string">"a1"</span>: {<span class="hljs-string">"name"</span>: <span class="hljs-string">"张三"</span>, <span class="hljs-string">"goods"</span>: <span class="hljs-string">"电脑"</span>},       <span class="hljs-comment"># A 组第 1 个用户的数据</span>
+        <span class="hljs-string">"a2"</span>: {<span class="hljs-string">"name"</span>: <span class="hljs-string">"李四"</span>, <span class="hljs-string">"goods"</span>: <span class="hljs-string">"电视"</span>}        <span class="hljs-comment"># A 组第 2 个用户的数据</span>
+    },
+    <span class="hljs-string">"user_b"</span>: {                                      <span class="hljs-comment"># 用户组 B</span>
+        <span class="hljs-string">"b1"</span>: {<span class="hljs-string">"name"</span>: <span class="hljs-string">"王五"</span>, <span class="hljs-string">"goods"</span>: <span class="hljs-string">"冰箱"</span>},       <span class="hljs-comment"># B 组第 1 个用户的数据</span>
+        <span class="hljs-string">"b2"</span>: {<span class="hljs-string">"name"</span>: <span class="hljs-string">"赵六"</span>, <span class="hljs-string">"goods"</span>: <span class="hljs-string">"空调"</span>}        <span class="hljs-comment"># B 组第 2 个用户的数据</span>
+    }
+}
+
+<span class="hljs-keyword">from</span> dataclasses <span class="hljs-keyword">import</span> dataclass                    <span class="hljs-comment"># 导入 dataclass 装饰器（简化类定义）</span>
+
+<span class="hljs-meta">@dataclass(frozen=True)                              # frozen=True：实例创建后不可修改（只读）</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserContext</span>:</span>                                   <span class="hljs-comment"># 定义上下文数据结构</span>
+    user_id: str                                     <span class="hljs-comment"># 用户 ID</span>
+    role_id: str                                     <span class="hljs-comment"># 用户组 ID</span>
+
+<span class="hljs-keyword">from</span> langchain.tools <span class="hljs-keyword">import</span> tool, ToolRuntime        <span class="hljs-comment"># 导入 tool 装饰器和 ToolRuntime（运行时信息）</span>
+
+<span class="hljs-meta">@tool                                                # 把函数注册为一个工具</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_current_user_data</span><span class="hljs-params">(runtime: ToolRuntime[UserContext])</span>:</span>
+    <span class="hljs-string">"""查询当前登录用户的资源"""</span>                        <span class="hljs-comment"># 工具说明（模型据此判断何时调用）</span>
+    ctx = runtime.context                            <span class="hljs-comment"># 从运行时取出上下文（即传入的 UserContext）</span>
+    data = USER_DATA.get(ctx.role_id, {}).get(ctx.user_id)  <span class="hljs-comment"># 用 role_id + user_id 查出对应用户数据</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-string">f"姓名:<span class="hljs-subst">{data[<span class="hljs-string">'name'</span>]}</span>,商品:<span class="hljs-subst">{data[<span class="hljs-string">'goods'</span>]}</span>"</span>  <span class="hljs-comment"># 返回格式化字符串</span>
+
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools=[get_current_user_data],                   <span class="hljs-comment"># 注册工具</span>
+    context_schema=UserContext,                      <span class="hljs-comment"># 声明上下文结构（类型安全）</span>
+    system_prompt=<span class="hljs-string">"你是购物助手，调用工具来查询用户信息"</span>  <span class="hljs-comment"># 系统提示词</span>
+)
+
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 同步调用智能体</span>
+    {<span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"查询一下我购买的商品"</span>)]},  <span class="hljs-comment"># 用户问题</span>
+    context=UserContext(user_id=<span class="hljs-string">"b1"</span>, role_id=<span class="hljs-string">"user_b"</span>)  <span class="hljs-comment"># 传入具体上下文（当前用户是 b1）</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历所有消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 美化打印</span></code></pre>
+<hr>
+<h2>State（状态）</h2>
+<blockquote>
+<p>给智能体增加自定义状态字段，工具可以读写这些状态（通过返回 <code>Command</code> 更新）。</p>
+</blockquote>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> AgentState              <span class="hljs-comment"># 导入 AgentState（智能体的基础状态类）</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CallState</span><span class="hljs-params">(AgentState)</span>:</span>                         <span class="hljs-comment"># 自定义状态类，继承 AgentState</span>
+    <span class="hljs-string">"""调用智能体时的智能体状态"""</span>
+    model_call_count: int                            <span class="hljs-comment"># 新增字段：模型被调用的次数</span>
+
+<span class="hljs-keyword">from</span> langchain.tools <span class="hljs-keyword">import</span> tool, ToolRuntime        <span class="hljs-comment"># 导入工具装饰器、运行时</span>
+<span class="hljs-keyword">from</span> langgraph.types <span class="hljs-keyword">import</span> Command                  <span class="hljs-comment"># 导入 Command（用于更新状态/跳转）</span>
+<span class="hljs-keyword">from</span> langchain.messages <span class="hljs-keyword">import</span> ToolMessage           <span class="hljs-comment"># 导入 ToolMessage（工具返回的消息）</span>
+
+<span class="hljs-meta">@tool                                                # 注册为工具</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update_model_call_count</span><span class="hljs-params">(runtime: ToolRuntime)</span>:</span>
+    <span class="hljs-string">"""记录模型被调用的次数"""</span>                        <span class="hljs-comment"># 工具说明</span>
+    count = runtime.state.get(<span class="hljs-string">"model_call_count"</span>, <span class="hljs-number">0</span>) <span class="hljs-comment"># 从状态里读取当前计数（默认 0）</span>
+    print(<span class="hljs-string">"模型被调用次数："</span>, count)                   <span class="hljs-comment"># 打印当前计数</span>
+
+    update = {                                       <span class="hljs-comment"># 构造要更新的状态字典</span>
+        <span class="hljs-string">"model_call_count"</span>: count + <span class="hljs-number">1</span>,               <span class="hljs-comment"># 计数 +1</span>
+        <span class="hljs-string">"messages"</span>: [                                <span class="hljs-comment"># 同时要往消息列表里追加一条 ToolMessage</span>
+            ToolMessage(
+                content=<span class="hljs-string">"数据更新成功"</span>,                <span class="hljs-comment"># 工具消息内容</span>
+                tool_call_id=runtime.tool_call_id    <span class="hljs-comment"># 关联本次工具调用的 ID</span>
+            )
+        ]
+    }
+
+    <span class="hljs-keyword">return</span> Command(update=update)                    <span class="hljs-comment"># 返回 Command，让框架把 update 合并进状态</span></code></pre>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langgraph.checkpoint.memory <span class="hljs-keyword">import</span> InMemorySaver  <span class="hljs-comment"># 内存保存器</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools=[update_model_call_count],                 <span class="hljs-comment"># 注册"更新计数"工具</span>
+    state_schema=CallState,                          <span class="hljs-comment"># 使用自定义状态结构 CallState</span>
+    checkpointer=InMemorySaver(),                    <span class="hljs-comment"># 保存状态（记忆）</span>
+    system_prompt=<span class="hljs-string">"你在回答用户问题的时候调用工具记录模型被调用次数"</span>  <span class="hljs-comment"># 系统提示词</span>
+)</code></pre>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> langchain.messages <span class="hljs-keyword">import</span> HumanMessage          <span class="hljs-comment"># 用户消息类</span>
+
+config = {<span class="hljs-string">"configurable"</span>: {<span class="hljs-string">"thread_id"</span>: <span class="hljs-string">"1"</span>}}        <span class="hljs-comment"># 会话 ID（决定状态存哪个线程）</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 同步调用智能体</span>
+    {<span class="hljs-string">"messages"</span>: [HumanMessage(content=<span class="hljs-string">"你好，我是张三"</span>)]},  <span class="hljs-comment"># 用户消息</span>
+    config                                           <span class="hljs-comment"># 会话配置</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历返回的所有消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 美化打印</span></code></pre>
+<hr>
+<h2>中间件（Middleware）</h2>
+<blockquote>
+<p>中间件可以在请求前后"插手"处理，比如脱敏、人工审核。</p>
+</blockquote>
+<h3>信息脱敏</h3>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> langchain.agents.middleware <span class="hljs-keyword">import</span> PIIMiddleware <span class="hljs-comment"># 导入 PII（个人隐私信息）中间件</span>
+
+pii_middleware_phone = PIIMiddleware(                <span class="hljs-comment"># 创建手机号脱敏中间件</span>
+    <span class="hljs-string">"phone_number"</span>,                                  <span class="hljs-comment"># 要处理的敏感信息类型：手机号</span>
+    detector=<span class="hljs-string">r"(?:\+?\d{1,3}[\s.-]?)?(?:\(?\d{2,4}\)?[\s.-]?)?\d{3,4}[\s.-]?\d{4}"</span>,  <span class="hljs-comment"># 正则：匹配各种手机号格式</span>
+    strategy=<span class="hljs-string">"mask"</span>                                  <span class="hljs-comment"># 策略：mask（打码遮蔽）</span>
+)
+
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen-long"</span>,                               <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    middleware=[pii_middleware_phone]                <span class="hljs-comment"># 挂载脱敏中间件</span>
+)
+
+response = agent.invoke({                            <span class="hljs-comment"># 同步调用</span>
+    <span class="hljs-string">"messages"</span>: [
+        HumanMessage(<span class="hljs-string">"我的手机号是13112345678，请记住这些信息"</span>)  <span class="hljs-comment"># 用户输入含手机号</span>
+    ]
+})
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 打印（能看到手机号被脱敏）</span></code></pre>
+<h3>人工审核（Human-in-the-Loop）</h3>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">from</span> langchain_core.tools <span class="hljs-keyword">import</span> tool                <span class="hljs-comment"># 工具装饰器</span>
+
+emails = [                                           <span class="hljs-comment"># 模拟邮箱里的邮件数据</span>
+    {
+        <span class="hljs-string">"subject"</span>: <span class="hljs-string">"打个招呼"</span>,                        <span class="hljs-comment"># 邮件主题</span>
+        <span class="hljs-string">"content"</span>: <span class="hljs-string">"""
+            你好，张三，
+            我们好久没聊天啦，今天突然想起你。
+            你最近怎么样？工作和生活一切顺利吗？
+
+            期待你的回信，保重！
+        """</span>,                                         <span class="hljs-comment"># 邮件内容</span>
+        <span class="hljs-string">"from"</span>: <span class="hljs-string">"lisi@163.com"</span>,                      <span class="hljs-comment"># 发件人</span>
+        <span class="hljs-string">"status"</span>: <span class="hljs-string">"未读"</span>                              <span class="hljs-comment"># 状态</span>
+    },
+    {
+        <span class="hljs-string">"subject"</span>: <span class="hljs-string">"工作咨询"</span>,                        <span class="hljs-comment"># 邮件主题</span>
+        <span class="hljs-string">"content"</span>: <span class="hljs-string">"""
+            你好，张三，
+            最近还好吗？
+
+            不知道你什么时候有空，能不能一起聊聊。不急，有空再回复就好。
+
+            祝你一切顺心！
+        """</span>,                                         <span class="hljs-comment"># 邮件内容</span>
+        <span class="hljs-string">"from"</span>: <span class="hljs-string">"wangwu@163.com"</span>,                    <span class="hljs-comment"># 发件人</span>
+        <span class="hljs-string">"status"</span>: <span class="hljs-string">"已读"</span>                              <span class="hljs-comment"># 状态</span>
+    }
+]
+
+<span class="hljs-meta">@tool                                                # 注册为工具</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">check_email</span><span class="hljs-params">()</span> -&gt; str:</span>
+    <span class="hljs-string">"""查看邮件"""</span>                                    <span class="hljs-comment"># 工具说明</span>
+    <span class="hljs-keyword">return</span> str(emails)                               <span class="hljs-comment"># 返回邮件列表的字符串形式</span>
+
+<span class="hljs-meta">@tool                                                # 注册为工具</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">send_email</span><span class="hljs-params">(to: str, subject: str, content: str)</span>:</span>
+    <span class="hljs-string">"""回复邮件"""</span>                                    <span class="hljs-comment"># 工具说明</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-string">f"邮件已发送给<span class="hljs-subst">{to}</span>,主题:<span class="hljs-subst">{subject}</span>,内容:<span class="hljs-subst">{content}</span>"</span>  <span class="hljs-comment"># 返回"发送成功"的模拟结果</span>
+
+<span class="hljs-keyword">from</span> langchain.agents.middleware <span class="hljs-keyword">import</span> HumanInTheLoopMiddleware  <span class="hljs-comment"># 导入人工审核中间件</span>
+
+email_middleware = HumanInTheLoopMiddleware(         <span class="hljs-comment"># 创建人工审核中间件</span>
+    interrupt_on={                                   <span class="hljs-comment"># 指定"在哪些工具调用时中断等待人工"</span>
+        <span class="hljs-string">"send_email"</span>: {                              <span class="hljs-comment"># 对 send_email 工具中断</span>
+            <span class="hljs-string">"description"</span>: <span class="hljs-string">"请确认邮件内容"</span>,           <span class="hljs-comment"># 中断提示语</span>
+            <span class="hljs-string">"allowed_decisions"</span>: [<span class="hljs-string">"approve"</span>, <span class="hljs-string">"reject"</span>]  <span class="hljs-comment"># 允许的决定：批准 / 拒绝</span>
+        }
+    }
+)
+
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+<span class="hljs-keyword">from</span> langgraph.checkpoint.memory <span class="hljs-keyword">import</span> InMemorySaver  <span class="hljs-comment"># 内存保存器</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools=[check_email, send_email],                 <span class="hljs-comment"># 注册两个工具</span>
+    middleware=[email_middleware],                   <span class="hljs-comment"># 挂载人工审核中间件</span>
+    checkpointer=InMemorySaver(),                    <span class="hljs-comment"># 保存状态（中断后可继续）</span>
+    system_prompt=<span class="hljs-string">"你是一个邮件助手"</span>                    <span class="hljs-comment"># 系统提示词</span>
+)
+
+config = {<span class="hljs-string">"configurable"</span>: {<span class="hljs-string">"thread_id"</span>: <span class="hljs-string">"1"</span>}}        <span class="hljs-comment"># 会话 ID</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 第一次调用：查看邮件</span>
+    {<span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"帮我查看邮件"</span>)]},       <span class="hljs-comment"># 用户请求</span>
+    config                                           <span class="hljs-comment"># 会话配置</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 打印</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 第二次调用：回复邮件（会触发人工审核中断）</span>
+    {<span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"帮我回复李四，问问他具体时间"</span>)]},  <span class="hljs-comment"># 用户请求</span>
+    config                                           <span class="hljs-comment"># 会话配置</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 打印（此时停在 send_email 等待审核）</span>
+
+<span class="hljs-keyword">from</span> langgraph.types <span class="hljs-keyword">import</span> Command                  <span class="hljs-comment"># 导入 Command（用于恢复中断）</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 恢复中断：拒绝并给出修改意见</span>
+    Command(
+        resume={
+            <span class="hljs-string">"decisions"</span>: [                           <span class="hljs-comment"># 决定列表</span>
+                {
+                    <span class="hljs-string">"type"</span>: <span class="hljs-string">"reject"</span>,                <span class="hljs-comment"># 拒绝</span>
+                    <span class="hljs-string">"message"</span>: <span class="hljs-string">"语气太正式了，我和李四是好朋友，用更亲切的语气回复"</span>  <span class="hljs-comment"># 给模型的修改建议</span>
+                }
+            ]
+        }
+    ),
+    config                                           <span class="hljs-comment"># 会话配置</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 打印（模型按建议重写）</span>
+
+response = agent.invoke(                             <span class="hljs-comment"># 再次恢复中断：批准发送</span>
+    Command(
+        resume={
+            <span class="hljs-string">"decisions"</span>: [
+                {
+                    <span class="hljs-string">"type"</span>: <span class="hljs-string">"approve"</span>                <span class="hljs-comment"># 批准</span>
+                }
+            ]
+        }
+    ),
+    config                                           <span class="hljs-comment"># 会话配置</span>
+)
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 打印（邮件"发送"成功）</span></code></pre>
+<hr>
+<h2>MCP（模型上下文协议）</h2>
+<blockquote>
+<p>MCP 让 Agent 能以统一方式接入外部工具服务（本地进程或远程 HTTP 服务）。</p>
+</blockquote>
+<p>1、安装环境</p>
+<pre><code class="lang-bash hljs">pip install langchain-mcp-adapters
+pip install uv</code></pre>
+<blockquote>
+<ul>
+<li><code>langchain-mcp-adapters</code>：把 MCP 工具接入 LangChain 的适配器。</li>
+<li><code>uv</code>：超快的 Python 包/工具运行器，<code>uvx</code> 可直接运行 MCP 服务器。</li>
+</ul>
+</blockquote>
+<p>2、查询当前时间</p>
+<pre><code class="lang-python hljs"><span class="hljs-keyword">import</span> sys                                           <span class="hljs-comment"># 系统模块</span>
+<span class="hljs-keyword">import</span> asyncio                                       <span class="hljs-comment"># 异步 IO 模块</span>
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv                       <span class="hljs-comment"># 读取 .env</span>
+load_dotenv()                                        <span class="hljs-comment"># 加载配置</span>
+
+<span class="hljs-keyword">if</span> sys.platform == <span class="hljs-string">"win32"</span>:                          <span class="hljs-comment"># 如果是 Windows 平台</span>
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> isinstance(asyncio.get_event_loop_policy(), asyncio.WindowsProactorEventLoopPolicy):  <span class="hljs-comment"># 若当前不是 Proactor 事件循环策略</span>
+        asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())  <span class="hljs-comment"># 设为 Proactor（Windows 子进程需要）</span>
+
+    <span class="hljs-keyword">if</span> <span class="hljs-string">"ipykernel"</span> <span class="hljs-keyword">in</span> sys.modules:                   <span class="hljs-comment"># 如果运行在 Jupyter 内核里</span>
+        sys.stderr = sys.__stderr__                  <span class="hljs-comment"># 恢复标准错误输出（避免某些显示问题）</span>
+
+<span class="hljs-keyword">from</span> langchain_mcp_adapters.client <span class="hljs-keyword">import</span> MultiServerMCPClient  <span class="hljs-comment"># 导入多服务器 MCP 客户端</span>
+
+client = MultiServerMCPClient(                       <span class="hljs-comment"># 创建 MCP 客户端，可配置多个服务</span>
+    {
+        <span class="hljs-string">"time"</span>: {                                    <span class="hljs-comment"># 服务名：time</span>
+            <span class="hljs-string">"transport"</span>: <span class="hljs-string">"stdio"</span>,                    <span class="hljs-comment"># 传输方式：stdio（本地子进程标准输入输出）</span>
+            <span class="hljs-string">"command"</span>: <span class="hljs-string">"uvx"</span>,                        <span class="hljs-comment"># 启动命令：uvx</span>
+            <span class="hljs-string">"args"</span>: [                                <span class="hljs-comment"># 命令参数</span>
+                <span class="hljs-string">"mcp-server-time"</span>,                   <span class="hljs-comment"># 要运行的 MCP 服务器包</span>
+                <span class="hljs-string">"--local-timezone=Asia/Shanghai"</span>,    <span class="hljs-comment"># 指定本地时区为上海</span>
+            ]
+        }
+    }
+)
+
+tools = <span class="hljs-keyword">await</span> client.get_tools()                     <span class="hljs-comment"># 异步获取该客户端下所有工具</span>
+<span class="hljs-keyword">for</span> tool <span class="hljs-keyword">in</span> tools:                                   <span class="hljs-comment"># 遍历工具</span>
+    print(tool.name)                                 <span class="hljs-comment"># 打印工具名称</span>
+
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类</span>
+
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools                                            <span class="hljs-comment"># 把 MCP 工具列表传进去</span>
+)
+
+<span class="hljs-keyword">from</span> langchain_core.messages <span class="hljs-keyword">import</span> HumanMessage     <span class="hljs-comment"># 用户消息类（原笔记此处重复导入）</span>
+<span class="hljs-keyword">import</span> os                                            <span class="hljs-comment"># 读环境变量（原笔记此处重复导入）</span>
+<span class="hljs-keyword">from</span> langchain.agents <span class="hljs-keyword">import</span> create_agent            <span class="hljs-comment"># 创建智能体（原笔记此处重复导入）</span>
+<span class="hljs-keyword">from</span> langchain.chat_models <span class="hljs-keyword">import</span> init_chat_model    <span class="hljs-comment"># 初始化模型（原笔记此处重复导入）</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 再次初始化模型（原笔记重复代码）</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools                                            <span class="hljs-comment"># 工具</span>
+)</code></pre>
+<p>3、查询航班（HTTP 远程 MCP 服务）</p>
+<pre><code class="lang-python hljs">client = MultiServerMCPClient(                       <span class="hljs-comment"># 新建 MCP 客户端</span>
+    {
+        <span class="hljs-string">"kiwi-com-flight-search"</span>: {                  <span class="hljs-comment"># 服务名：kiwi 航班搜索</span>
+            <span class="hljs-string">"transport"</span>: <span class="hljs-string">"http"</span>,                     <span class="hljs-comment"># 传输方式：HTTP（远程服务）</span>
+            <span class="hljs-string">"url"</span>: <span class="hljs-string">"https://mcp.kiwi.com"</span>            <span class="hljs-comment"># 服务地址</span>
+        }
+    }
+)
+
+tools = <span class="hljs-keyword">await</span> client.get_tools()                     <span class="hljs-comment"># 异步获取所有工具</span>
+<span class="hljs-keyword">for</span> tool <span class="hljs-keyword">in</span> tools:                                   <span class="hljs-comment"># 遍历工具</span>
+    print(tool.name)                                 <span class="hljs-comment"># 打印工具名称</span>
+
+model = init_chat_model(                             <span class="hljs-comment"># 初始化模型</span>
+    model=<span class="hljs-string">"qwen3.5-plus"</span>,                            <span class="hljs-comment"># 模型名称</span>
+    model_provider=<span class="hljs-string">"openai"</span>,                         <span class="hljs-comment"># OpenAI 兼容协议</span>
+    api_key=os.getenv(<span class="hljs-string">"DASHSCOPE_API_KEY"</span>),          <span class="hljs-comment"># API Key</span>
+    base_url=os.getenv(<span class="hljs-string">"DASHSCOPE_BASE_URL"</span>)         <span class="hljs-comment"># 接口地址</span>
+)
+
+agent = create_agent(
+    model,                                           <span class="hljs-comment"># 模型</span>
+    tools,                                           <span class="hljs-comment"># 传入 MCP 工具</span>
+    system_prompt=<span class="hljs-string">"你是一名旅行智能助手，帮用户找到合适的航班"</span>  <span class="hljs-comment"># 系统提示词</span>
+)
+
+response = <span class="hljs-keyword">await</span> agent.ainvoke({                     <span class="hljs-comment"># 异步调用智能体（ainvoke）</span>
+    <span class="hljs-string">"messages"</span>: [HumanMessage(<span class="hljs-string">"帮我查询下周一深圳飞北京的航班"</span>)]  <span class="hljs-comment"># 用户问题</span>
+})
+
+<span class="hljs-keyword">for</span> message <span class="hljs-keyword">in</span> response[<span class="hljs-string">'messages'</span>]:                 <span class="hljs-comment"># 遍历消息</span>
+    message.pretty_print()                           <span class="hljs-comment"># 美化打印</span></code></pre>
+<hr>
+<h2>小结（给初学者的学习路线建议）</h2>
+<ol>
+<li><strong>先跑通最基础的模型连接</strong>（快速上手 6~8 步），理解 <code>invoke</code> 和 <code>stream</code>。</li>
+<li><strong>理解三种消息角色</strong>：<code>system</code> / <code>user</code> / <code>assistant</code>。</li>
+<li><strong>学会 <code>create_agent</code> + <code>system_prompt</code></strong>，这是后面一切功能的基础。</li>
+<li><strong>结构化输出</strong>（Pydantic）→ 让结果可编程使用。</li>
+<li><strong>工具调用（Function Calling）</strong> → 让 Agent 能"动手"。</li>
+<li><strong>记忆（checkpointer + thread_id）</strong> → 多轮对话。</li>
+<li><strong>RAG</strong> → 让 Agent 基于私有知识回答。</li>
+<li><strong>Context / State</strong> → 把业务上下文与状态传入 Agent。</li>
+<li><strong>中间件</strong> → 脱敏、人工审核等安全控制。</li>
+<li><strong>MCP</strong> → 接入标准化外部工具生态。</li>
+</ol>
+<blockquote>
+<p>提示：原笔记中 MCP 部分有一段 <code>model</code> / <code>agent</code> 的重复代码，学习时可以直接忽略第二段重复的初始化。</p>
+</blockquote>
+</body></html>
