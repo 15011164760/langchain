@@ -997,7 +997,14 @@ agent = create_agent(
     model,                                           # 模型
     tools                                            # 把 MCP 工具列表传进去
 )
+response = await agent.ainvoke(
+    {
+        "messages": [HumanMessage("现在几点了？")]
+    }
+)
 
+for message in response['messages']:
+    message.pretty_print()
 from langchain_core.messages import HumanMessage     # 用户消息类（原笔记此处重复导入）
 import os                                            # 读环境变量（原笔记此处重复导入）
 from langchain.agents import create_agent            # 创建智能体（原笔记此处重复导入）
