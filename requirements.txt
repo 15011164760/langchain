@@ -69,3 +69,8 @@ wcwidth==0.9.4
 websockets==17.4
 xxhash==4.0.2
 zstandard==0.25.0
+# MCP 相关（mcp.ipynb 需要）
+langchain-mcp-adapters==0.3.2
+mcp==1.30.0
+# Web 检索工具（Tavily）
+langchain-tavily==0.2.18
