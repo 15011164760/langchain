@@ -7,4 +7,14 @@
     <orderEntry type="jdk" jdkName="Python 3.14 (langchain)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="py.test" />
+  </component>
+>>>>>>> b35032f6034b160e7b7052fd1f407c971a4342ae
 </module>

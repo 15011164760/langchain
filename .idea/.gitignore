@@ -1,10 +1,21 @@
+<<<<<<< HEAD
 # 默认忽略的文件
 /shelf/
 /workspace.xml
 # 已忽略包含查询文件的默认文件夹
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Ignored default folder with query files
+>>>>>>> b35032f6034b160e7b7052fd1f407c971a4342ae
 /queries/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+<<<<<<< HEAD
 # 基于编辑器的 HTTP 客户端请求
+=======
+# Editor-based HTTP Client requests
+>>>>>>> b35032f6034b160e7b7052fd1f407c971a4342ae
 /httpRequests/
