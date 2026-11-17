@@ -1,3 +1,10 @@
+'''
+Author: yangdongxu
+Date: 2026-11-03 17:32:39
+LastEditors: yangdongxu
+LastEditTime: 2026-11-17 16:33:36
+FilePath: \langchain\demo.py
+'''
 print("hello world")
 # height=float(input('你的身高是多少：'))
 # weight=float(input('你的体重是多少kg：'))
@@ -42,16 +49,30 @@ shopPrice={
 # for i in range(1,101):
 #     sum+=i
 # print(sum)
-count=0
-sum=0
-item=input('请输入一个数输入数字，停止输入q:')
-while item!='q':
-    item=float(item)
-    sum+=item
-    count+=1
-    item = input('请输入一个数输入数字，停止输入q:')
-if count==0:
-    result=0
-else:
-    result=sum/count
-print("平均值是"+str(result))
+# count=0
+# sum=0
+# item=input('请输入一个数输入数字，停止输入q:')
+# while item!='q':
+#     item=float(item)
+#     sum+=item
+#     count+=1
+#     item = input('请输入一个数输入数字，停止输入q:')
+# if count==0:
+#     result=0
+# else:
+#     result=sum/count
+# print("平均值是"+str(result))
+
+from pathlib import Path
+
+# 1. 获取当前脚本所在的绝对目录（最常用）
+current_dir = Path(__file__).resolve().parent
+print(f"脚本所在目录: {current_dir}")
+
+# 2. 获取当前脚本的完整绝对路径
+current_file = Path(__file__).resolve()
+print(f"脚本完整路径: {current_file}")
+
+# 3. 获取终端运行程序时的当前工作目录
+cwd = Path.cwd()
+print(f"终端工作目录: {cwd}")
