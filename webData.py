@@ -2,7 +2,7 @@
 Author: yangdongxu
 Date: 2026-11-18 14:51:03
 LastEditors: yangdongxu
-LastEditTime: 2026-11-18 17:28:09
+LastEditTime: 2026-11-18 20:03:08
 FilePath: \langchain\webData.py
 '''
 # 导入所需的库
@@ -16,9 +16,9 @@ response = requests.get('https://movie.douban.com/top250',headers=header)  # 发
 # print(response.text)  # 打印响应内容
 soup = BeautifulSoup(response.text, 'html.parser')  # 解析HTML内容
 # print(soup)  # 打印解析后的HTML内容
-titles = soup.find_all('span',class_='title')  # 查找所有的<h3>标签
+titles = soup.find_all('span',class_='title')  # 查找所有的<span>标签
 print(titles)  # 打印解析后的HTML内容
-for title in titles:  # 遍历所有的<h3>标签
+for title in titles:  # 遍历所有的<span>标签
     if title.string and  '/' not in title.string:
-        print(title.string)  # 打印每个<h3>标签的文本内容
+        print(title.string)  # 打印每个<span>标签的文本内容
 
